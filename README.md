@@ -1,7 +1,7 @@
 # Description
 
 Go-Back-N algorithm implementation of pipelined reliable data transfer in python language.
-Simply transfers input.txt from source.py to dets.py by passing through broker.py.
+Simply transfers input.txt from source.py to dest.py by passing through broker.py.
 Every script writes its own txt file. Therefore, file of the script is created in the directory of that script. 
 It's implemented for running on local machine. Easily, can be used for remote machines by just changing IP addresses.
 Used 'datetime' library to calculate difference time.
